@@ -36,4 +36,7 @@ let jsonServerData = {
     ]
   }
   
-  console.log();
+  for (const serverdata in jsonServerData) {
+   console.log(jsonServerData[serverdata]);
+    }
+  
