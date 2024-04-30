@@ -565,3 +565,7 @@ let weather = {   //object 1
   console.log(weather.list[0].main);
   console.log(weather.list[0].main.pressure);
   console.log(weather.list[5].coord.lat);
+
+  for (const weathers in weather) {
+    console.log(weather[weathers]);
+  }
