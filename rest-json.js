@@ -9,4 +9,8 @@ let rest = {
     "mongodb": "mongodb://localhost:27017/api"
   }
   
-  console.log();
+  for (const rests in rest) {
+   console.log(rest[rests]);
+
+    }
+  

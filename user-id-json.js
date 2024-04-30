@@ -47,3 +47,7 @@ let user = {
 
 console.log(user.type);
 console.log(user.plan.name);
+
+for (const users in user) {
+    console.log(user[users]);
+}
